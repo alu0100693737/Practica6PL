@@ -9,7 +9,7 @@ body {
   font-family: $main-font;
   
 
-background: #A9F5D0 url(/images/3.jpg) no-repeat ;
+background: #A9F5D0 url('3.jpg') no-repeat ;
 background-size: cover;
 background-position: center 0;
 background-attachment: fixed;
@@ -60,7 +60,7 @@ nav {
 
 p {
   font: 13px/1.4 $main-font;
-  background: darken(#0267AB, 0%);
+  background: darken(#black, 0%);
   
 }
 
