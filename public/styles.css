@@ -23,7 +23,7 @@ nav {
     list-style: none;
     margin: 0;
     padding: 0;
-    background: #444444;
+    background: black;
     overflow: hidden; }
   nav li {
     float: left; }
@@ -31,7 +31,7 @@ nav {
     text-decoration: none;
     display: block;
     padding: 8px;
-    background: #444444;
+    background: black;
     color: white; }
     nav a:hover {
       background: #111111; }
@@ -64,7 +64,7 @@ nav a.current {
   padding-left: 24px; }
 
 .loadfile {
-  background-color: #444444;
+  background-color: black;
   border-radius: 5px;
   border: 2px solid #DDD;
   line-height: 80px;
