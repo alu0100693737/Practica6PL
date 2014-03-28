@@ -18,8 +18,7 @@ suite('Tests', function(){
 
   test('Test sobre la multiplicación', function(){
     obj = pl0.parse("a = 2 * 3 .")
-    var wait = '[ \t\n\r], [*\/], [+\-]'
-    assert.equal(OUTPUT.innerHTML, wait) ;
+    assert.equal(obj[0].right.type, "*") 
   });
 
   test('Test sobre la división', function(){
