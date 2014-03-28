@@ -78,7 +78,7 @@ suite('Tests', function(){
 
 
   test('Prueba de error de sintaxis', function(){
-    assert.throws(function() { pl0.parse("a = 3"); }, /Expected "[Function]"/);
+    assert.throws(function() { pl0.parse("a = 3"); }, /Expected "."/);
   });
 
 });
