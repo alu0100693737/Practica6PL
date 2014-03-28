@@ -38,5 +38,5 @@ span.error { background-color: red }
 
 body
 {
- background-color:#61380B;  /* blue */
+ background-color:#b0c4de;  /* blue */
 }

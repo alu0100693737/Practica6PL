@@ -9,7 +9,7 @@ body {
   font-family: $main-font;
   
 
-background: #A9F5D0 url(/images/3.jpg) no-repeat ;
+background: #A9F5D0 url(3.jpg) no-repeat ;
 background-size: cover;
 background-position: center 0;
 background-attachment: fixed;
@@ -90,7 +90,7 @@ nav a.current {
 #like {
   p {
     font-weight: bold;
-    color: $red;
+    color: $#424242;
   }
   input {
     background: $red url(/images/like.png) 0 2px no-repeat;
@@ -103,7 +103,7 @@ nav a.current {
 
 
 .loadfile {
-  background-color: $black;
+  background-color: $white;
   border-radius: 5px;
   border: 2px solid #DDD;
   line-height: 80px;
