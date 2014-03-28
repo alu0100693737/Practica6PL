@@ -11,7 +11,7 @@ suite('Tests', function(){
     assert.equal(obj[0].right.value, "3") 
   });
 
-  test('Test sobre la suma', function(){
+  test('Test sobre la uuma', function(){
     obj = pl0.parse("a = 2 + 3 .")
     assert.equal(obj[0].right.type, "+")
   });

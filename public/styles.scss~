@@ -4,21 +4,12 @@ $white: #fff;
 $blue: #002EB8;
 $main-font: Helvetica, Arial, sans-serif;
 
-
 body {
   font-family: $main-font;
-  
-
-background: #A9F5D0 url(/images/3.jpg) no-repeat ;
-background-size: cover;
-background-position: center 0;
-background-attachment: fixed;
-
-
 }
 
 h1 {
-  color: $white;
+  color: $red;
   font: 32px/1 $main-font;
 }
 
@@ -60,20 +51,14 @@ nav {
 
 p {
   font: 13px/1.4 $main-font;
-  background: darken(#0267AB, 0%);
-  
 }
 
 label {
   display: block;
-    background-color: $red;
-
 }
 
 nav a.current {
   background: lighten($black, 50%);
-    background-color: $red;
-
 }
 
 .flash {
@@ -81,10 +66,9 @@ nav a.current {
   padding: 5px;
   font-weight: bold;
   margin: 20px;
-  background: lighten($red, 10%);
+  background: lighten($red, 60%);
   color: $red;
   border: 1px solid $red;
-  
 }
 
 #like {
@@ -98,9 +82,7 @@ nav a.current {
     height: 28px;
     padding-left: 24px;
   }
-  
 }
-
 
 .loadfile {
   background-color: $black;
@@ -125,17 +107,13 @@ nav a.current {
   button:hover, input:hover {
     cursor:pointer;
   }
-  
 }
-
-
-  
+   
 .error {
   color: $white;
   background-color: $red;
 }
 
 .centered {
-  
   text-align: center;
 }
