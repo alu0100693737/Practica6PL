@@ -11,10 +11,11 @@ h1 {
   font: 32px/1 Helvetica, Arial, sans-serif; }
 
 header h1 {
+
   font-size: 40px;
   line-height: 80px;
-  background: url(logo.png) 0 0 no-repeat;
-  background-size: 5% 70%;
+  background: url("logo.png") 0 0 no-repeat;
+  background-size: 5% 30%;
   padding-left: 84px; }
 
 nav {
