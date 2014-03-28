@@ -118,7 +118,6 @@ nav a.current {
   button:hover, input:hover {
     cursor:pointer;
   }
-  background-color: $white;
   
 }
 
@@ -132,5 +131,4 @@ nav a.current {
 .centered {
   
   text-align: center;
-  background-color: $white;
 }
