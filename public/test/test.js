@@ -15,36 +15,6 @@ suite('Tests', function(){
     obj = pl0.parse("a = 2 + 3 .")
     assert.equal(obj[0].right.type, "+")
   });
-test('Probando constantes', function() {
-	    prueba = pl0.parse("const a=4,b=1;a = 1*9+4;.")
-	    assert.equal(prueba[0][0][0].type, "const")
-	    assert.equal(prueba[0][0][0].left, "a")
-	    assert.equal(prueba[0][0][0].right, "4")
-	    assert.equal(prueba[0][0][1].type, "const")
-	    assert.equal(prueba[0][0][1].left, "b")
-	    assert.equal(prueba[0][0][1].right, "1")
-	});
-
-test('Suma', function(){
-    valor = pl0.parse("Suma = 8+ 9 .")
-    assert.equal(valor[0].right.type, "+")
-  });
-
-  test('Resta', function(){
-    valor = pl0.parse("Resta = 5 -19 .")
-    assert.equal(valor[0].right.type, "-")
-  });
-
-  test('Multiplicacion', function(){
-    valor = pl0.parse("Multiplicacion = 4 *3 .")
-    assert.equal(valor[0].right.value.type, "*") 
-  });
-
-  test('División', function(){
-    valor = pl0.parse("Division = 4/4 .")
-    assert.equal(valor[0].right.value.type, "/")
-  });
-});
 
   test('Test sobre la multiplicación', function(){
     obj = pl0.parse("a = 2 * 3 .")
