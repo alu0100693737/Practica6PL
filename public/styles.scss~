@@ -106,7 +106,7 @@ nav a.current {
   padding: 5px;
 
   button, input {
-    color: $black;
+    color: $white;
     float: left;
     list-style: none;
 
