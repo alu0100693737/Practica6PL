@@ -7,6 +7,7 @@ $main-font: Helvetica, Arial, sans-serif;
 
 body {
   font-family: $main-font;
+  color: $white;
 }
 
 h1 {
@@ -105,7 +106,7 @@ nav a.current {
   padding: 5px;
 
   button, input {
-    color: $black;
+    color: $white;
     float: left;
     list-style: none;
 
