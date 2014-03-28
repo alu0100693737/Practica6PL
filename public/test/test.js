@@ -3,7 +3,7 @@ var assert = chai.assert;
 suite('Tests', function(){
 
   test('Test sobre la asignación', function(){
-    obj = pl0.parse("a = 3 .")
+    obj = pl0.parse("a = 3 ")
     assert.equal(obj[0].type, "=")
     assert.equal(obj[0].left.type, "ID")
     assert.equal(obj[0].left.value, "a")
@@ -12,32 +12,32 @@ suite('Tests', function(){
   });
 
   test('Test sobre la suma', function(){
-    obj = pl0.parse("a = 2 + 3 .")
+    obj = pl0.parse("a = 2 + 3 ")
     assert.equal(obj[0].right.type, "+")
   });
 
   test('Test sobre la multiplicación', function(){
-    obj = pl0.parse("a = 2 * 3 .")
+    obj = pl0.parse("a = 2 * 3 ")
     assert.equal(obj[0].right.type, "*") 
   });
 
   test('Test sobre la división', function(){
-    obj = pl0.parse("a = 2 / 3 .")
+    obj = pl0.parse("a = 2 / 3 ")
     assert.equal(obj[0].right.type, "/")
   });
 
   test('Test sobre el paréntesis', function(){
-    obj = pl0.parse("a = (2+3) * 3 .")
+    obj = pl0.parse("a = (2+3) * 3 ")
     assert.equal(obj[0].right.left.type, "+")
   });
 
   test('Test sobre la precedencia', function(){
-    obj = pl0.parse("a = 2+3*3 .")
+    obj = pl0.parse("a = 2+3*3 ")
     assert.equal(obj[0].right.left.type, "NUM")
   });
 
   test('Test sobre la comparación', function(){
-    obj = pl0.parse("IF a == 3 THEN b = 2 .")
+    obj = pl0.parse("IF a == 3 THEN b = 2 ")
     assert.equal(obj[0].condition.type, "==")
   });
 
