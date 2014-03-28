@@ -26,7 +26,9 @@ table        { border: inset; border-color: white; }
 .hidden      { display: none; }
 .unhidden    { display: block; }
 table.center { margin-left:auto; margin-right:auto; }
-#result      { border-color: red; }
+#result      { border-color: red; 
+  background-color: $white;
+}
 .error       { font-family: terminal; background-color: red; }
 #output      { background-color: white; }
 td           { background-color: #b0c4de; }
@@ -38,5 +40,5 @@ span.error { background-color: red }
 
 body
 {
- background-color:#b0c4de;  /* blue */
+ background-color:#61380B;  /* blue */
 }
