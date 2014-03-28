@@ -7,7 +7,7 @@ background-attachment: fixed;
 }
 
 h1 {
-  color: #990033;
+  color: #000000;
   font: 32px/1 Helvetica, Arial, sans-serif; }
 
 header h1 {
