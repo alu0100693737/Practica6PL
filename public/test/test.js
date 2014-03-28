@@ -1,6 +1,6 @@
 var assert = chai.assert;
 
-suite('Tests', function(){
+suite('Test', function(){
 
   test('Test sobre la asignación', function(){
     obj = pl0.parse("a = 3 .")
